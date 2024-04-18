@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter Page</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="test-center " id="heads">
+ <a1><b><i> Twitter</i></b></a1>
+</div>
+
+<div id="tweet-form">
+    
+    <form action="/tweet" method="post">
+        <input type="text" id="handle-input" name="handleInput" placeholder="@YourAccountHandle">
+        <textarea id="tweet-input" name="tweetInput" rows="4" cols="50" placeholder=" What's happening???..."></textarea>
+        <button type="submit" id="tweet-button" disabled>Tweet</button>
+    </form>
+    
+    <!-- <input type="text" id="handle-input" placeholder="@YourAccountHandle">
+    <textarea id="tweet-input" rows="4" cols="50" placeholder=" What's happening???..."></textarea>
+    <button id="tweet-button" disabled>Tweet</button> -->
+</div>
+
+<div id="tweet-container"></div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://images6.alphacoders.com/109/1093603.png);
+}
+
+#heads {
+    padding: 1px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+#tweet-form {
+    background-color: #fff;
+    padding: 20px; 
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 5px solid #ccc;
+    margin-bottom: 12px;
+    background-color: #7B7D7D;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+#tweet-button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #5DADE2;
+}
+
+#tweet-button:disabled {
+    cursor: not-allowed;
+}
+
+.edit-btn,
+.trash-btn,
+.like-btn {
+    cursor: pointer;
+    padding: 10px;
+    margin: 115px auto;
+}
+
+.edit-btn:hover {
+    color: blue;
+}
+
+.trash-btn:hover {
+    color: violet;
+}
+
+.like-btn:hover {
+    color: red;
+}
+
+.timestamp {
+ position: absolute;
+ top: 5px;right: 5px;
+    font-size: 15px;
+    color: #ccc;
+    margin-top: 5px; 
+    font-style: italic; /* Italicize the timestamp */
+}
+
+.user-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-id {
+ top: 5px;left: 35px;
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #333;
+    position:absolute; /* Change the color of the user ID */
+}
